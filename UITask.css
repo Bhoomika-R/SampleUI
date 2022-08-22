@@ -1,0 +1,38 @@
+div{
+    color: #fff;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    
+}
+#container{
+    display:flex;
+    margin: 5px;
+}
+#side{
+    background-color:#4F628E;
+    width: 300px;
+    position: relative;
+}
+#main{
+    background-color:#7887AB;
+    z-index: 1;
+    flex-grow: 1;
+}
+#dragbar{
+   background-color:#eee;
+   height:100%;
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 10px;
+   cursor: col-resize;
+}
+
+#bottom {
+    background-color:#4F628E;
+    min-height: 0;
+    max-height: 100%;
+    position: absolute;
+    height: 300px;
+    bottom: 0;
+    margin-right: 5px;
+}
